@@ -1,0 +1,24 @@
+.repo {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+.description > div,
+.repo > div:nth-child(2),
+.secondaryDescription,
+.sourceFork {
+  font-size: 0.85rem !important;
+}
+.secondaryDescription {
+  margin-bottom: 0.5rem;
+}
+.description > div:not(:first-child) {
+  margin-left: 1rem;
+}
+pre {
+  padding: 1rem;
+}
+.repository {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 0.5rem;
+}
